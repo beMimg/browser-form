@@ -1,1 +1,1 @@
-![Screenshot from 2023-09-20 13-56-42](https://github.com/beMimg/browser-form/assets/126000960/9f4acc17-2eae-4065-bd13-104c8d05db76)
+![image](https://github.com/beMimg/browser-form/assets/126000960/bcb71b73-1067-4562-8b62-2f3a81f6e760)
