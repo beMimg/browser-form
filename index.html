@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/be7f0e2488.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form novalidate class="form" id="form">
+        <!-- One form -->
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="you@you.you"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error</small>
+        </div>
+        <!-- End of One Form -->
+        <!-- One form -->
+        <div class="form-control select">
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="pt">Portugal</option>
+            <option value="es">Spain</option>
+            <option value="uk">United Kingdom</option>
+            <option value="in">India</option>
+            <option value="fr">France</option>
+          </select>
+        </div>
+        <!-- End of One Form -->
+        <!-- One form -->
+        <div class="form-control">
+          <label for="zip">ZIP:</label>
+          <input type="text" name="zip" id="zip" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small class="zip-error"></small>
+        </div>
+        <!-- End of One Form -->
+        <!-- One form -->
+        <div class="form-control">
+          <label for="password">Password:</label>
+          <input type="password" name="pass1" id="pass1" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error</small>
+        </div>
+        <!-- End of One Form -->
+        <!-- One form -->
+        <div class="form-control">
+          <label for="password-confirmation">Password Confirmation:</label>
+          <input type="password" name="pass1" id="pass2" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Error message</small>
+        </div>
+        <!-- End of One Form -->
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
